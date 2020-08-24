@@ -204,7 +204,7 @@ Mon Aug 10 09:23:32 UTC 2015 - nwang@suse.com
 -------------------------------------------------------------------
 Fri Jul 24 07:07:12 UTC 2015 - nwang@suse.com
 
-- BSC#939338, using kmp package for drbd8.4.6 
+- BSC#939338, using kmp package for drbd8.4.6
 - Require drbd-utils for user space.
 
 -------------------------------------------------------------------
@@ -287,14 +287,14 @@ Fri May 30 13:47:32 UTC 2014 - nwang@suse.com
 -------------------------------------------------------------------
 Tue May 27 02:38:21 UTC 2014 - nwang@suse.com
 
-- Temporarily comment "racc" in Makefile.am.Due to buildrequires: 
+- Temporarily comment "racc" in Makefile.am.Due to buildrequires:
   rubygem-racc is necessary in yast ci but invalid in ibs.
 - version 3.1.2
 
 -------------------------------------------------------------------
 Mon May 26 02:53:59 UTC 2014 - nwang@suse.com
 
-- BNC#876536. Convert Ycp to Ruby based on sle11sp3(sp1). 
+- BNC#876536. Convert Ycp to Ruby based on sle11sp3(sp1).
   Merge sle12 master code to convert branch then merge back
   to master. Did some basic test.
 - version 3.1.1
@@ -302,8 +302,8 @@ Mon May 26 02:53:59 UTC 2014 - nwang@suse.com
 -------------------------------------------------------------------
 Fri May  9 04:24:44 UTC 2014 - nwang@suse.com
 
-- BNC#875677. Change desktop file,move DRBD from Misc to 
-  High_Availability categorie. 
+- BNC#875677. Change desktop file,move DRBD from Misc to
+  High_Availability categorie.
 
 -------------------------------------------------------------------
 Wed Sep 18 15:56:35 UTC 2013 - lslezak@suse.cz
@@ -360,7 +360,7 @@ Wed Jul 16 08:11:51 CEST 2008 - xwhu@suse.de
 -------------------------------------------------------------------
 Mon Apr  7 08:42:49 CEST 2008 - xwhu@suse.de
 
-- bugzilla 291490: typo in resource_conf.ycp 
+- bugzilla 291490: typo in resource_conf.ycp
 
 -------------------------------------------------------------------
 Mon Jul 30 13:36:28 CEST 2007 - cmeng@novell.com
@@ -371,7 +371,7 @@ Mon Jul 30 13:36:28 CEST 2007 - cmeng@novell.com
 -------------------------------------------------------------------
 Mon Jul 23 11:32:52 CEST 2007 - cmeng@novell.com
 
-- fix bug-291766: yast-drbd doesn't install drbd-kmp-<arch> pack 
+- fix bug-291766: yast-drbd doesn't install drbd-kmp-<arch> pack
 - fix bug-291778: yast-drbd recreate drbd.conf while it doesn't exist
 - fix bug-291785: set the default val of protocol even 'advance page' not be accesed
 - fix bug-291771: refine some error messages and logs
@@ -380,7 +380,7 @@ Mon Jul 23 11:32:52 CEST 2007 - cmeng@novell.com
 Mon Jun 18 07:23:46 CEST 2007 - xwhu@novell.com
 
 - Change the instruction message about propagating configuration
-- Reuse yast-iscsi-client.png 
+- Reuse yast-iscsi-client.png
 
 -------------------------------------------------------------------
 Thu Apr 26 09:44:39 CEST 2007 - xwhu@novell.com
